@@ -21,7 +21,7 @@ def main():
         pipeline.generate(
             GenerationInput(
                 source_context=source_text,
-                communicative_intent='RAGの確率モデル(p_η, p_θ,D)と、クラウド型RAGにおける三層のコスト構造(インデックス維持費・検索課金・LLMトークン課金)の対応関係を示す概念図',
+                communicative_intent="RAGの定式化 p(y|x,D) と、クラウドRAGにおける主要コスト要素（インデックス構築、検索、LLMトークン推論）の対応関係を示す。図中ラベルは日本語で表記する。",
                 diagram_type=DiagramType.METHODOLOGY,
             )
         )
